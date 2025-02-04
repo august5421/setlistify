@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-$setlistApiKey = "FTFkCwyMmy8MMnAQcQWaYG9AR99z3hq4PBfq";
-$spotifyClientId = "981fc09664874b72982e45616a0e0111";
-$spotifyClientSecret = "116968bf0b664e7daae8975a3d3ff821";
+$setlistApiKey = "";
+$spotifyClientId = "";
+$spotifyClientSecret = "";
 
 function getSpotifyAccessToken($clientId, $clientSecret) {
     $url = 'https://accounts.spotify.com/api/token';

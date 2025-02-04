@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $clientId = '981fc09664874b72982e45616a0e0111'; 
+    $clientId = ''; 
     $redirectUri = 'http://localhost/callback.php';
     $authUrl = "https://accounts.spotify.com/authorize?response_type=code&client_id=$clientId&redirect_uri=" . urlencode($redirectUri) . "&scope=user-read-private user-read-email playlist-modify-public playlist-modify-private ugc-image-upload";
     $logoutUrl = 'scripts/logout.php'; 

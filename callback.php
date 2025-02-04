@@ -3,9 +3,9 @@ session_start();
 
 if (isset($_GET['code'])) {
     $code = $_GET['code'];
-    $clientId = '981fc09664874b72982e45616a0e0111'; 
-    $clientSecret = '116968bf0b664e7daae8975a3d3ff821'; 
-    $redirectUri = 'http://localhost/callback.php'; 
+    $clientId = ''; 
+    $clientSecret = ''; 
+    $redirectUri = '';
 
     $auth = base64_encode($clientId . ':' . $clientSecret);
     $data = [
